@@ -15,3 +15,7 @@ curl -v --trace-time https://google.com
 curl -v <IPADDRESS> <PORT>
 
 curl -i -H "Host: apache.mydomain.com" http://aaa71bxxxxx-11xxxxx10.us-east-1.elb.amazonaws.com/
+
+curl <svcname>.<namespacename>.svc.cluster.local:8080
+
+curl <svcname>.<namespacename>.svc.cluster.local:<applicationport>
